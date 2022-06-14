@@ -14,3 +14,4 @@
 <script type="text/javascript" src="/js/jquery-3.2.1.min.js"></script>
 <script type="text/javascript" src="/js/jquery.waypoints.min.js"></script>
 ```
+<head>内にてwaypointを読み込む。今回はjQueryバージョンのwaypointを使用しているので、jQueryもwaypointの前に読み込ませる。
