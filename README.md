@@ -28,3 +28,5 @@
 </div>
 ```
 このあとjQueryで「animation-box」が画面指定位置に来たらクラスを付ける。
+
+### jQueryサンプル
