@@ -15,3 +15,5 @@
 <script type="text/javascript" src="/js/jquery.waypoints.min.js"></script>
 ```
 <head>内にてwaypointを読み込む。今回はjQueryバージョンのwaypointを使用しているので、jQueryもwaypointの前に読み込ませる。
+  
+# 2.要素が画面指定位置に来たタイミングを取得してクラスを付与
