@@ -30,3 +30,16 @@
 このあとjQueryで「animation-box」が画面指定位置に来たらクラスを付ける。
 
 ### jQueryサンプル
+```
+$(function(){
+    $('.animation-box').waypoint(function(direction){
+        var activePoint = $(this.element);
+        if (direction === 'down') {　//scroll down
+            activePoint.addClass('active');
+        }
+        else{ //scroll up
+            activePoint.removeClass('active');
+        }
+    },{offset : '70%'});
+});
+```
