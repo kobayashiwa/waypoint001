@@ -9,3 +9,8 @@
 スクリプトを自前で書いて行うこともできるが、waypoint.jsはスクロールのアップ・ダウンを判別できたりとても便利なプラグインなので試してみる。
 
 ダウンロードしたファイルから、今回は「lib」フォルダの中の「jquery.waypoints.min.js」を使用する。
+
+```
+<script type="text/javascript" src="/js/jquery-3.2.1.min.js"></script>
+<script type="text/javascript" src="/js/jquery.waypoints.min.js"></script>
+```
