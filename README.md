@@ -55,3 +55,18 @@ $(function(){
    
     
 ### CSSサンプル
+```
+.animation-box:nth-child(odd){
+    background: #eee;
+}
+ 
+.animation-box{
+    padding: 120px;
+    transition:.5s;
+}
+ 
+.animation-box.active{
+    background: #666;
+    color: #fff;
+}
+```
