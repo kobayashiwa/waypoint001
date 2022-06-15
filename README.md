@@ -70,3 +70,6 @@ $(function(){
     color: #fff;
 }
 ```
+デフォルトのanimation-boxのスタイルに「transition: .5s;」を設定して0.5秒でアニメーションするようにしている。
+    
+画面指定位置に来たら付与されるクラスのスタイル「.animation-box.active」で背景色とフォントカラーを変更するようにしている。
