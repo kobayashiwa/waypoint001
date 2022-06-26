@@ -34,9 +34,14 @@ p {
 header {
 	position: fixed;
 	width: 100%;
+	background: #111;
 }
 
 /** main **/
+main {
+	width: 100%;
+	background: #222;
+}
 
 /** footer **/
 
