@@ -56,8 +56,15 @@ header {
 	height: 64px;
 	border-bottom: 1px solid #EAEAEA;
 }
+nav {
+	height: 64px;
+	position: relative;
+}
 .head-logo {
 	width: 24px;
+	position: absolute;
+	top: 50%;
+	transform: translate(0 , -50%);
 }
 .head-logo img {
 	width: 100%;
