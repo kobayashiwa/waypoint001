@@ -41,6 +41,10 @@ ul, li {
 	width: 100%;
 	margin: 0 auto;
 }
+.flex {
+	display: flex;
+	flex-wrap: wrap;
+}
 
 /** header **/
 header {
