@@ -52,6 +52,9 @@ h1, h2, h3 {
 .bg-gray {
 	background: #fafafa;
 }
+.bg-black {
+	background: #000;
+}
 
 /** header **/
 header {
