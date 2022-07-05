@@ -95,6 +95,7 @@ main {
 }
 .video-box {
 	position: relative;
+	overflow: hidden;
 }
 
 /** footer **/
