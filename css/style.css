@@ -89,6 +89,11 @@ main {
 	padding: 64px 0 0 0;
 }
 
+/** hero **/
+.hero {
+	position: relative;
+}
+
 /** footer **/
 footer {
 	width: 100%;
