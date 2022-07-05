@@ -93,6 +93,9 @@ main {
 .hero {
 	position: relative;
 }
+.video-box {
+	position: relative;
+}
 
 /** footer **/
 footer {
