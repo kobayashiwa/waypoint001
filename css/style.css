@@ -111,6 +111,7 @@ main {
 }
 .overlay::after {
 	position: absolute;
+	top: 0;
 }
 
 /** footer **/
