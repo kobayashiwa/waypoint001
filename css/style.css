@@ -101,6 +101,7 @@ main {
 }
 .video {
 	position: absolute;
+	top: 50%;
 }
 
 /** footer **/
