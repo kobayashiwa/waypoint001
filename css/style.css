@@ -109,6 +109,9 @@ main {
 	-moz-transform: translate(-50%, -50%);
 	transform: translate(-50%, -50%);
 }
+.video-box .text-box {
+	position: absolute;
+}
 
 /** footer **/
 footer {
