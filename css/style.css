@@ -111,6 +111,7 @@ main {
 }
 .video-box .text-box {
 	position: absolute;
+	top: 50%;
 }
 
 /** footer **/
