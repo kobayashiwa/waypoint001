@@ -132,6 +132,11 @@ footer .container {
 	font-size: 0.75em;
 }
 
+/** waypoint **/
+.animation-box:nth-child(odd){
+    background: #eee;
+}
+
 
 
 
