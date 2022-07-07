@@ -5,8 +5,6 @@
         <title>waypoint.jsとCSSでスクロールして画面指定位置で要素をアニメーションさせる</title>
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <meta name="description" content=""/>
-        <script type="text/javascript" src="js/jquery-3.6.0.min.js"></script>
-        <script type="text/javascript" src="js/jquery.waypoints.min.js"></script>
         <link href="https://fonts.googleapis.com/css2?family=Assistant:wght@300;400;600&display=swap" rel="stylesheet">
         <link rel="stylesheet" type="text/css" href="css/style.css" />
     </head>
@@ -96,6 +94,22 @@
                 <p class="copy">Copyright © 2022 Adobe. All rights reserved.</p>
             </div>
         </footer>
+
+        <script type="text/javascript" src="js/jquery-3.6.0.min.js"></script>
+        <script type="text/javascript" src="js/jquery.waypoints.min.js"></script>
+        <script>
+            $(function(){
+                $('.animation-box').waypoint(function(direction){
+                    var activePoint = $(this.element);
+                    if (direction === 'down') {　//scroll down
+                        activePoint.addClass('active');
+                    }
+                    else{ //scroll up
+                        activePoint.removeClass('active');
+                    }
+                },{offset : '70%'});
+            });
+        </script>
     </body>
 </html>
      
