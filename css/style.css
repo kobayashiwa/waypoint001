@@ -112,6 +112,7 @@ main {
 .video-box .text-box {
 	position: relative;
 	z-index: 9;
+	max-width: 1200px;
 }
 
 /** footer **/
