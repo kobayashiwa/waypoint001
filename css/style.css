@@ -49,10 +49,6 @@ ul, li {
 h1, h2, h3 {
 	font-size: 1.75em;
 }
-.bg-black {
-	background: #000;
-	color: #fff;
-}
 
 /** header **/
 header {
@@ -141,10 +137,10 @@ footer .container {
     background: #fafafa;
     color: #2C2C2C;
 }
-
-
-
-
+.bg-black.animation-box.active{
+    background: #000;
+	color: #fff;
+}
 
 
 
