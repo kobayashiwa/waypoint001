@@ -49,9 +49,6 @@ ul, li {
 h1, h2, h3 {
 	font-size: 1.75em;
 }
-.bg-gray {
-	background: #fafafa;
-}
 .bg-black {
 	background: #000;
 	color: #fff;
@@ -134,7 +131,15 @@ footer .container {
 
 /** waypoint **/
 .animation-box:nth-child(odd){
-    background: #eee;
+    background: #fff;
+	color: #fff;
+}
+.animation-box{
+    transition:.5s;
+}
+.animation-box.active{
+    background: #fafafa;
+    color: #2C2C2C;
 }
 
 
